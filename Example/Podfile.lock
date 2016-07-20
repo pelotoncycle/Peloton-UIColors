@@ -1,0 +1,22 @@
+PODS:
+  - Nimble (3.2.0)
+  - Peloton-UIColors (0.1.0)
+  - Quick (0.9.2)
+
+DEPENDENCIES:
+  - Nimble (~> 3.0)
+  - Peloton-UIColors (from `../`)
+  - Quick (~> 0.8)
+
+EXTERNAL SOURCES:
+  Peloton-UIColors:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
+  Peloton-UIColors: 2743a4e0404d26da013dac33367cfd17556ec48e
+  Quick: 18d057bc66451eedd5d1c8dc99ba2a5db6e60226
+
+PODFILE CHECKSUM: 5ed8de49ac468ee0e8a98ccc37865f9b9509bc22
+
+COCOAPODS: 1.0.1
