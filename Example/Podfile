@@ -6,7 +6,9 @@ target 'Peloton-UIColors_Example' do
   target 'Peloton-UIColors_Tests' do
     inherit! :search_paths
 
-    pod 'Quick', '~> 0.8'
-  pod 'Nimble', '~> 3.0'
+    pod 'FBSnapshotTestCase', '~> 2.1'
+    pod 'Quick', '~> 0.9'
+    pod 'Nimble', '~> 4.1'
+    pod 'Nimble-Snapshots', '~> 4.1'
   end
 end
