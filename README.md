@@ -20,18 +20,49 @@ it, simply add the following line to your Podfile:
 pod "Peloton-UIColors"
 ```
 
+###Usage
+To use Peloton-UIColors, include the following import:
+
+``` swift
+import Peloton_UIColors
+```
+
 ## Colors
-<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonSuperRed_looks_right%402x.png" height=100 width=100>
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonSuperRed_looks_right%402x.png" height=100 width=100 />
 
-<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonBlueBlack_looks_right%402x.png" height=100 width=100>
+```swift
+UIColor.pelotonSuperRed()
+```
 
-<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonSlateGrey_looks_right%402x.png" height=100 width=100>
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonBlueBlack_looks_right%402x.png" height=100 width=100 />
 
-<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonMediumGrey_looks_right%402x.png" height=100 width=100>
+```swift
+UIColor.pelotonBlueBlack()
+```
 
-<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonLightGrey_looks_right%402x.png" height=100 width=100>
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonSlateGrey_looks_right%402x.png" height=100 width=100 />
 
-<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonBlueWhite_looks_right%402x.png" height=100 width=100>
+``` swift
+UIColor.pelotonSlateGrey()
+```
+
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonMediumGrey_looks_right%402x.png" height=100 width=100 />
+
+``` swift
+UIColor.pelotonMediumGrey()
+```
+
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonLightGrey_looks_right%402x.png" height=100 width=100 />
+
+``` swift
+UIColor.pelotonLightGrey()
+```
+
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonBlueWhite_looks_right%402x.png" height=100 width=100 />
+
+``` swift
+UIColor.pelotonBlueWhite()
+```
 
 ## Author
 
