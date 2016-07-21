@@ -15,7 +15,17 @@ Runs all the tests
 ```
 fastlane ios lint
 ```
-
+Runs linting
+### ios pod_lint
+```
+fastlane ios pod_lint
+```
+Lint podspec
+### ios release
+```
+fastlane ios release
+```
+Release new version
 
 ----
 

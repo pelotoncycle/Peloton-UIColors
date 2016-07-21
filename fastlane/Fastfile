@@ -17,7 +17,6 @@ default_platform :ios
 
 platform :ios do
   before_all do
-    # cocoapods
   end
 
   desc "Runs all the tests"
@@ -31,12 +30,41 @@ platform :ios do
     )
   end
 
+  desc "Runs linting"
   lane :lint do
     swiftlint(
       mode: :lint,
       ignore_exit_status: false,
       config_file: '.swiftlint.yml'
     )
+  end
+
+  desc "Lint podspec"
+  lane :pod_lint do
+    pod_lib_lint
+  end
+
+  desc "Release new version"
+    lane :release do |options|
+    target_version = options[:version]
+    raise "The version is missed. Use `fastlane release version:{version_number}`.`" if target_version.nil?
+
+    ensure_git_branch
+    ensure_git_status_clean
+
+    pod_lint
+
+    test
+
+    sync_build_number_to_git
+    increment_version_number(version_number: target_version)
+    version_bump_podspec(path: "Peloton-UIColors.podspec", version_number: target_version)
+
+    git_commit_all(message: "Release version #{target_version}")
+    add_git_tag tag: target_version
+
+    push_to_git_remote
+    pod_push
   end
 
   after_all do |lane|
