@@ -1,0 +1,17 @@
+machine:
+  xcode:
+    version: "7.3.1"
+  environment:
+    LANG: en_US.UTF-8
+
+dependencies:
+  override:
+    - brew install swiftlint
+    - bundle install
+    - cd Example; bundle exec pod install
+
+test:
+  override: 
+    - bundle exec fastlane test
+  post: 
+    - bash <(curl -s https://codecov.io/bash)

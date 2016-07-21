@@ -1,0 +1,15 @@
+disabled_rules:
+  - valid_docs
+
+opt_in_rules:
+  - empty_count
+  - force_unwrapping
+
+included:
+  - Peloton-UIColors
+
+excluded:
+  - Pods
+
+function_body_length:
+  warning: 50
