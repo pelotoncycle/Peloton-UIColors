@@ -7,9 +7,13 @@ opt_in_rules:
 
 included:
   - Peloton-UIColors
+  - Example
 
 excluded:
+  - Example/Pods
   - Pods
+
+line_length: 200
 
 function_body_length:
   warning: 50
