@@ -61,7 +61,7 @@ platform :ios do
     increment_version_number(version_number: target_version)
     version_bump_podspec(path: "Peloton-UIColors.podspec", version_number: target_version)
 
-    git_commit_all(message: "Release version #{target_version}")
+    git_commit(message: "Release version #{target_version}")
     add_git_tag tag: target_version
 
     push_to_git_remote
