@@ -58,12 +58,13 @@ platform :ios do
 
     #set_build_number_repository
     build_number = get_build_number_repository
-    increment_build_number(build_number: target_version, xcodeproj: './Example/Peloton-UIColors.xcodeproj')
+    increment_build_number(build_number: build_number, xcodeproj: './Example/Peloton-UIColors.xcodeproj')
     increment_version_number(version_number: target_version, xcodeproj: './Example/Peloton-UIColors.xcodeproj')
 
     version_bump_podspec(path: "Peloton-UIColors.podspec", version_number: target_version)
 
-    git_commit(message: "Release version #{target_version}")
+    git_commit(path: ["./Example/Peloton-UIColors/Info.plist", "./Example/Tests/Info.plist", "./Peloton-UIColors.podspec"],
+      message: "Release version #{target_version}")
     add_git_tag tag: target_version
 
     push_to_git_remote
