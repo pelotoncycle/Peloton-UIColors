@@ -56,7 +56,8 @@ platform :ios do
 
     test
 
-    sync_build_number_to_git
+    set_build_number_repository
+
     increment_version_number(version_number: target_version)
     version_bump_podspec(path: "Peloton-UIColors.podspec", version_number: target_version)
 
