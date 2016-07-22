@@ -70,7 +70,14 @@ extension UIColor {
 
     let gradient = CGGradientCreateWithColors(CGColorSpaceCreateDeviceRGB(), gradientColors, locations)
 
-    let scaleT = CGAffineTransformMakeScale(0.5, 1.0)
+    let scaleT : CGAffineTransform
+
+    if frame.size.height > frame.size.width {
+      scaleT = CGAffineTransformMakeScale(0.5, 1.0)
+    } else {
+      scaleT = CGAffineTransformMakeScale(1, 0.7)
+    }
+
     let invScaleT = CGAffineTransformInvert(scaleT)
     let invS = CGPoint(x: invScaleT.a, y: invScaleT.d)
 
