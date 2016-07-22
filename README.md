@@ -69,6 +69,26 @@ UIColor.pelotonBlueWhite()
 ```
 <img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonBlueWhite_looks_right%402x.png" height=100 width=100 />
 
+## Gradient Colors
+
+#### Spotlight Gradient
+
+```swift
+if let context = UIGraphicsGetCurrentContext() {
+  UIColor.drawSpotlightGradient(context, frame: rect)
+}
+```
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/spotlightGradient_looks_right%402x.png" height=667 width=375 />
+
+#### Light Grey Gradient
+
+```swift
+if let context = UIGraphicsGetCurrentContext() {
+  UIColor.drawLightGreyGradient(context, frame: rect)
+}
+```
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/lightGreyGradient_looks_right%402x.png" height=667 width=375 />
+
 ## Author
 
 Ryan Fitzgerald, ryan.fitzgerald@pelotoncycle.com
