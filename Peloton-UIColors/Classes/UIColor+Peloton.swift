@@ -70,7 +70,7 @@ extension UIColor {
 
     let gradient = CGGradientCreateWithColors(CGColorSpaceCreateDeviceRGB(), gradientColors, locations)
 
-    let scaleT : CGAffineTransform
+    let scaleT: CGAffineTransform
 
     if frame.size.height > frame.size.width {
       scaleT = CGAffineTransformMakeScale(0.5, 1.0)
