@@ -50,8 +50,18 @@ class UIColorPelotonSpec: QuickSpec {
       expect(radialView) == snapshot()
     }
 
+    it("spotlightGradient looks right in landscape") {
+      let radialView = SpotlightRadialView(frame: CGRect(x: 0, y: 0, width: 667, height: 375))
+      expect(radialView) == snapshot()
+    }
+
     it("lightGreyGradient looks right") {
       let radialView = LightRadialView(frame: CGRect(x: 0, y: 0, width: 375, height: 667))
+      expect(radialView) == snapshot()
+    }
+
+    it("lightGreyGradient looks right in landscape") {
+      let radialView = LightRadialView(frame: CGRect(x: 0, y: 0, width: 667, height: 375))
       expect(radialView) == snapshot()
     }
   }
