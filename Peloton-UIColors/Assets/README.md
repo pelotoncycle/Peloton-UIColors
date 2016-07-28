@@ -6,7 +6,7 @@ copy the Peloton.clr file to ~/Library/Colors directory
 
 ```sh
 $ git clone git@github.com:pelotoncycle/Peloton-UIColors.git
-$ cd ./Peloton-UIColors/XCode Color Palette
+$ cd ./Peloton-UIColors/Peloton-UIColors/Assets
 $ cp Peloton.clr ~/Library/Colors
 ```
 
