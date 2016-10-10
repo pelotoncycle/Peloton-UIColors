@@ -69,7 +69,7 @@ class UIColorPelotonSpec: QuickSpec {
 
 private class SpotlightRadialView: UIView {
 
-  override func drawRect(rect: CGRect) {
+  override func draw(_ rect: CGRect) {
     if let context = UIGraphicsGetCurrentContext() {
       UIColor.drawSpotlightGradient(context, frame: rect)
     }
@@ -78,7 +78,7 @@ private class SpotlightRadialView: UIView {
 
 private class LightRadialView: UIView {
 
-  override func drawRect(rect: CGRect) {
+  override func draw(_ rect: CGRect) {
     if let context = UIGraphicsGetCurrentContext() {
       UIColor.drawLightGreyGradient(context, frame: rect)
     }
