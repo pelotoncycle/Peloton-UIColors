@@ -25,7 +25,7 @@ class ViewController: UIViewController {
 
 class RadialView: UIView {
 
-  override func drawRect(rect: CGRect) {
+  override func draw(_ rect: CGRect) {
     if let context = UIGraphicsGetCurrentContext() {
       UIColor.drawSpotlightGradient(context, frame: rect)
     }

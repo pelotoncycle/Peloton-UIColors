@@ -10,7 +10,7 @@ import UIKit.UIColor
 
 extension UIColor {
 
-  private class func colorFromHex(hex6: UInt32, alpha: CGFloat = 1) -> UIColor {
+  fileprivate class func colorFromHex(_ hex6: UInt32, alpha: CGFloat = 1) -> UIColor {
     let divisor = CGFloat(255)
     let red     = CGFloat((hex6 & 0xFF0000) >> 16) / divisor
     let green   = CGFloat((hex6 & 0x00FF00) >>  8) / divisor
@@ -42,43 +42,45 @@ extension UIColor {
     return UIColor.colorFromHex(0xF5F7F9)
   }
 
-  public class func drawSpotlightGradient(context: CGContext, frame: CGRect) {
+  public class func drawSpotlightGradient(_ context: CGContext, frame: CGRect) {
     let backgroundColor = UIColor.pelotonMediumGrey()
     let gradColor = UIColor.pelotonBlueWhite()
-    let colors = [gradColor.colorWithAlphaComponent(1.0), gradColor.colorWithAlphaComponent(0.7)]
+    let colors = [gradColor.withAlphaComponent(1.0), gradColor.withAlphaComponent(0.7)]
 
     UIColor.drawRadialGradient(context, frame: frame, colors: colors, backgroundColor: backgroundColor)
   }
 
-  public class func drawLightGreyGradient(context: CGContext, frame: CGRect) {
+  public class func drawLightGreyGradient(_ context: CGContext, frame: CGRect) {
     let backgroundColor = UIColor.pelotonLightGrey()
-    let gradColor = UIColor.whiteColor()
-    let colors = [gradColor.colorWithAlphaComponent(1.0), gradColor.colorWithAlphaComponent(0.65)]
+    let gradColor = UIColor.white
+    let colors = [gradColor.withAlphaComponent(1.0), gradColor.withAlphaComponent(0.65)]
 
     UIColor.drawRadialGradient(context, frame: frame, colors: colors, backgroundColor: backgroundColor)
   }
 
-  private class func drawRadialGradient(context: CGContext, frame: CGRect, colors: [UIColor], backgroundColor: UIColor) {
+  fileprivate class func drawRadialGradient(_ context: CGContext, frame: CGRect, colors: [UIColor], backgroundColor: UIColor) {
     // fill background
-    CGContextSetFillColorWithColor(context, backgroundColor.CGColor)
-    CGContextFillRect(context, frame)
+    context.setFillColor(backgroundColor.cgColor)
+    context.fill(frame)
 
     // oval gradient
-    let gradientColors: CFArrayRef = colors.map { $0.CGColor }
+    let gradientColors: CFArray = colors.map { $0.cgColor } as CFArray
 
     let locations: [CGFloat] = [0.0, 1]
 
-    let gradient = CGGradientCreateWithColors(CGColorSpaceCreateDeviceRGB(), gradientColors, locations)
+    guard let gradient = CGGradient(colorsSpace: CGColorSpaceCreateDeviceRGB(), colors: gradientColors, locations: locations) else {
+      return
+    }
 
     let scaleT: CGAffineTransform
 
     if frame.size.height > frame.size.width {
-      scaleT = CGAffineTransformMakeScale(0.5, 1.0)
+      scaleT = CGAffineTransform(scaleX: 0.5, y: 1.0)
     } else {
-      scaleT = CGAffineTransformMakeScale(1, 0.7)
+      scaleT = CGAffineTransform(scaleX: 1, y: 0.7)
     }
 
-    let invScaleT = CGAffineTransformInvert(scaleT)
+    let invScaleT = scaleT.inverted()
     let invS = CGPoint(x: invScaleT.a, y: invScaleT.d)
 
     let radius: CGFloat
@@ -90,8 +92,8 @@ extension UIColor {
 
     let center = CGPoint(x: frame.midX * invS.x, y: frame.midY * invS.y)
 
-    CGContextScaleCTM(context, scaleT.a, scaleT.d)
+    context.scaleBy(x: scaleT.a, y: scaleT.d)
 
-    CGContextDrawRadialGradient(context, gradient, center, 0, center, radius, .DrawsAfterEndLocation)
+    context.drawRadialGradient(gradient, startCenter: center, startRadius: 0, endCenter: center, endRadius: radius, options: .drawsAfterEndLocation)
   }
 }
