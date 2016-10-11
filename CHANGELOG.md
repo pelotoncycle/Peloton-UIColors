@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 `Peloton-UIColors` adheres to [Semantic Versioning](http://semver.org/).
 
+## 0.3
+
+- Upgraded to Swift 3.0
+
 ## 0.2
 
 - Radial Gradients
