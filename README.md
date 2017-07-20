@@ -63,6 +63,12 @@ UIColor.pelotonLightGrey()
 ```
 <img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonLightGrey_looks_right%402x.png" height=100 width=100 />
 
+#### Light Blue Grey
+``` swift
+UIColor.pelotonLightBlueGrey()
+```
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonLightBlueGrey_looks_right%402x.png" height=100 width=100 />
+
 #### Blue White
 ``` swift
 UIColor.pelotonBlueWhite()

@@ -38,6 +38,10 @@ extension UIColor {
     return UIColor.colorFromHex(0xD2D5D9)
   }
 
+  public class func pelotonLightBlueGrey() -> UIColor {
+    return UIColor.colorFromHex(0xEEF0F2)
+  }
+
   public class func pelotonBlueWhite() -> UIColor {
     return UIColor.colorFromHex(0xF5F7F9)
   }
