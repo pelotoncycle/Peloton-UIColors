@@ -2,9 +2,13 @@
 All notable changes to this project will be documented in this file.
 `Peloton-UIColors` adheres to [Semantic Versioning](http://semver.org/).
 
+## 0.4
+
+- Better adhere to the Swift API Design Guidelines.
+
 ## 0.3.3
 
-- ADDS `UIColor.pelotonMediumOrange()`
+- Adds `UIColor.pelotonMediumOrange()`
 
 ## 0.3.1
 

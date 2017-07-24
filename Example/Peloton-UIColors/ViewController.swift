@@ -9,7 +9,7 @@
 import UIKit
 import Peloton_UIColors
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
   let radialView = RadialView()
 
   override func viewDidLoad() {
@@ -23,8 +23,7 @@ class ViewController: UIViewController {
   }
 }
 
-class RadialView: UIView {
-
+final class RadialView: UIView {
   override func draw(_ rect: CGRect) {
     if let context = UIGraphicsGetCurrentContext() {
       UIColor.drawSpotlightGradient(context, frame: rect)
