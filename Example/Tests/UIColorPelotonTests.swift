@@ -6,8 +6,7 @@ import Nimble
 import Nimble_Snapshots
 import Peloton_UIColors
 
-class UIColorPelotonSpec: QuickSpec {
-
+final class UIColorPelotonSpec: QuickSpec {
   override func spec() {
     var view: UIView!
 
@@ -16,42 +15,42 @@ class UIColorPelotonSpec: QuickSpec {
     }
 
     it("pelotonSuperRed looks right") {
-      view.backgroundColor = UIColor.pelotonSuperRed()
+      view.backgroundColor = .pelotonSuperRed
       expect(view) == snapshot()
     }
 
     it("pelotonMediumOrange looks right") {
-      view.backgroundColor = UIColor.pelotonMediumOrange()
+      view.backgroundColor = .pelotonMediumOrange
       expect(view) == snapshot()
     }
 
     it("pelotonBlueBlack looks right") {
-      view.backgroundColor = UIColor.pelotonBlueBlack()
+      view.backgroundColor = .pelotonBlueBlack
       expect(view) == snapshot()
     }
 
     it("pelotonSlateGrey looks right") {
-      view.backgroundColor = UIColor.pelotonSlateGrey()
+      view.backgroundColor = .pelotonSlateGrey
       expect(view) == snapshot()
     }
 
     it("pelotonMediumGrey looks right") {
-      view.backgroundColor = UIColor.pelotonMediumGrey()
+      view.backgroundColor = .pelotonMediumGrey
       expect(view) == snapshot()
     }
 
     it("pelotonLightGrey looks right") {
-      view.backgroundColor = UIColor.pelotonLightGrey()
+      view.backgroundColor = .pelotonLightGrey
       expect(view) == snapshot()
     }
 
     it("pelotonLightBlueGrey looks right") {
-      view.backgroundColor = UIColor.pelotonLightBlueGrey()
+      view.backgroundColor = .pelotonLightBlueGrey
       expect(view) == snapshot()
     }
 
     it("pelotonBlueWhite looks right") {
-      view.backgroundColor = UIColor.pelotonBlueWhite()
+      view.backgroundColor = .pelotonBlueWhite
       expect(view) == snapshot()
     }
 
@@ -77,8 +76,7 @@ class UIColorPelotonSpec: QuickSpec {
   }
 }
 
-private class SpotlightRadialView: UIView {
-
+private final class SpotlightRadialView: UIView {
   override func draw(_ rect: CGRect) {
     if let context = UIGraphicsGetCurrentContext() {
       UIColor.drawSpotlightGradient(context, frame: rect)
@@ -86,8 +84,7 @@ private class SpotlightRadialView: UIView {
   }
 }
 
-private class LightRadialView: UIView {
-
+private final class LightRadialView: UIView {
   override func draw(_ rect: CGRect) {
     if let context = UIGraphicsGetCurrentContext() {
       UIColor.drawLightGreyGradient(context, frame: rect)

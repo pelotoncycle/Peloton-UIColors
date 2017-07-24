@@ -33,52 +33,52 @@ import Peloton_UIColors
 #### Super Red
 
 ```swift
-UIColor.pelotonSuperRed()
+UIColor.pelotonSuperRed
 ```
 <img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonSuperRed_looks_right%402x.png" height=100 width=100 />
 
 #### Medium Orange
 
 ```swift
-UIColor.pelotonMediumOrange()
+UIColor.pelotonMediumOrange
 ```
 <img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonMediumOrange_looks_right%402x.png" height=100 width=100 />
 
 #### Blue Black
 
 ```swift
-UIColor.pelotonBlueBlack()
+UIColor.pelotonBlueBlack
 ```
 <img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonBlueBlack_looks_right%402x.png" height=100 width=100 />
 
 #### Slate Grey
 
 ``` swift
-UIColor.pelotonSlateGrey()
+UIColor.pelotonSlateGrey
 ```
 <img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonSlateGrey_looks_right%402x.png" height=100 width=100 />
 
 #### Medium Grey
 ``` swift
-UIColor.pelotonMediumGrey()
+UIColor.pelotonMediumGrey
 ```
 <img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonMediumGrey_looks_right%402x.png" height=100 width=100 />
 
 #### Light Grey
 ``` swift
-UIColor.pelotonLightGrey()
+UIColor.pelotonLightGrey
 ```
 <img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonLightGrey_looks_right%402x.png" height=100 width=100 />
 
 #### Light Blue Grey
 ``` swift
-UIColor.pelotonLightBlueGrey()
+UIColor.pelotonLightBlueGrey
 ```
 <img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonLightBlueGrey_looks_right%402x.png" height=100 width=100 />
 
 #### Blue White
 ``` swift
-UIColor.pelotonBlueWhite()
+UIColor.pelotonBlueWhite
 ```
 <img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonBlueWhite_looks_right%402x.png" height=100 width=100 />
 
