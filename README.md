@@ -37,6 +37,13 @@ UIColor.pelotonSuperRed()
 ```
 <img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonSuperRed_looks_right%402x.png" height=100 width=100 />
 
+#### Medium Orange
+
+```swift
+UIColor.pelotonMediumOrange()
+```
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonMediumOrange_looks_right%402x.png" height=100 width=100 />
+
 #### Blue Black
 
 ```swift
