@@ -22,6 +22,10 @@ extension UIColor {
     return UIColor.colorFromHex(0xFF3347)
   }
 
+  public class func pelotonMediumOrange() -> UIColor {
+    return UIColor.colorFromHex(0xFABD5C)
+  }
+
   public class func pelotonBlueBlack() -> UIColor {
     return UIColor.colorFromHex(0x222529)
   }

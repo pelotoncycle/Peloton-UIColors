@@ -20,6 +20,11 @@ class UIColorPelotonSpec: QuickSpec {
       expect(view) == snapshot()
     }
 
+    it("pelotonMediumOrange looks right") {
+      view.backgroundColor = UIColor.pelotonMediumOrange()
+      expect(view) == snapshot()
+    }
+
     it("pelotonBlueBlack looks right") {
       view.backgroundColor = UIColor.pelotonBlueBlack()
       expect(view) == snapshot()
