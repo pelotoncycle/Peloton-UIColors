@@ -64,6 +64,12 @@ UIColor.pelotonMediumGrey
 ```
 <img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonMediumGrey_looks_right%402x.png" height=100 width=100 />
 
+#### Medium Dark Grey
+``` swift
+UIColor.pelotonMediumDarkGrey
+```
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonMediumDarkGrey_looks_right%402x.png" height=100 width=100 />
+
 #### Light Grey
 ``` swift
 UIColor.pelotonLightGrey
