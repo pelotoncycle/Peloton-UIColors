@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Peloton-UIColors'
-  s.version          = '0.4'
+  s.version          = '0.4.1'
   s.summary          = 'UIColors for Peloton Apps.'
 
 # This description is used to generate tags and improve search results.
