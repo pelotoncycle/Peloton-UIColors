@@ -88,6 +88,36 @@ UIColor.pelotonBlueWhite
 ```
 <img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonBlueWhite_looks_right%402x.png" height=100 width=100 />
 
+#### Heart Rate Zone 1
+``` swift
+UIColor.pelotonHeartRateZone1
+```
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonHeartRateZone1_looks_right%402x.png" height=100 width=100 />
+
+#### Heart Rate Zone 2
+``` swift
+UIColor.pelotonHeartRateZone2
+```
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonHeartRateZone2_looks_right%402x.png" height=100 width=100 />
+
+#### Heart Rate Zone 3
+``` swift
+UIColor.pelotonHeartRateZone3
+```
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonHeartRateZone3_looks_right%402x.png" height=100 width=100 />
+
+#### Heart Rate Zone 4
+``` swift
+UIColor.pelotonHeartRateZone4
+```
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonHeartRateZone4_looks_right%402x.png" height=100 width=100 />
+
+#### Heart Rate Zone 5
+``` swift
+UIColor.pelotonHeartRateZone5
+```
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonHeartRateZone5_looks_right%402x.png" height=100 width=100 />
+
 ## Gradient Colors
 
 #### Spotlight Gradient
