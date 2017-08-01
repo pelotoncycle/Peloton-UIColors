@@ -54,6 +54,26 @@ extension UIColor {
     return .colorFromHex(0xF5F7F9)
   }
 
+  public static var pelotonHeartRateZone1: UIColor {
+    return .colorFromHex(0x50C4AA)
+  }
+
+  public static var pelotonHeartRateZone2: UIColor {
+    return .colorFromHex(0xB6C95C)
+  }
+
+  public static var pelotonHeartRateZone3: UIColor {
+    return .colorFromHex(0xFACB3E)
+  }
+
+  public static var pelotonHeartRateZone4: UIColor {
+    return .colorFromHex(0xFC800F)
+  }
+
+  public static var pelotonHeartRateZone5: UIColor {
+    return .colorFromHex(0xF64F5F)
+  }
+
   public static func drawSpotlightGradient(_ context: CGContext, frame: CGRect) {
     let backgroundColor = UIColor.pelotonMediumGrey
     let gradColor = UIColor.pelotonBlueWhite

@@ -59,6 +59,31 @@ final class UIColorPelotonSpec: QuickSpec {
       expect(view) == snapshot()
     }
 
+    it("pelotonHeartRateZone1 looks right") {
+      view.backgroundColor = .pelotonHeartRateZone1
+      expect(view) == snapshot()
+    }
+
+    it("pelotonHeartRateZone2 looks right") {
+      view.backgroundColor = .pelotonHeartRateZone2
+      expect(view) == snapshot()
+    }
+
+    it("pelotonHeartRateZone3 looks right") {
+      view.backgroundColor = .pelotonHeartRateZone5
+      expect(view) == snapshot()
+    }
+
+    it("pelotonHeartRateZone4 looks right") {
+      view.backgroundColor = .pelotonHeartRateZone4
+      expect(view) == snapshot()
+    }
+
+    it("pelotonHeartRateZone5 looks right") {
+      view.backgroundColor = .pelotonHeartRateZone5
+      expect(view) == snapshot()
+    }
+
     it("spotlightGradient looks right") {
       let radialView = SpotlightRadialView(frame: CGRect(x: 0, y: 0, width: 375, height: 667))
       expect(radialView) == snapshot()
