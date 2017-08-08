@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 `Peloton-UIColors` adheres to [Semantic Versioning](http://semver.org/).
 
+## 0.4.3
+
+- updated `.pelotonHeartRateZone5]`
+
 ## 0.4.2
 
 - Adds Heart Rate Zone colors: `[UIColor.pelotonHeartRateZone1, .pelotonHeartRateZone2, .pelotonHeartRateZone3, .pelotonHeartRateZone4, .pelotonHeartRateZone5]`

@@ -70,7 +70,7 @@ final class UIColorPelotonSpec: QuickSpec {
     }
 
     it("pelotonHeartRateZone3 looks right") {
-      view.backgroundColor = .pelotonHeartRateZone5
+      view.backgroundColor = .pelotonHeartRateZone3
       expect(view) == snapshot()
     }
 
