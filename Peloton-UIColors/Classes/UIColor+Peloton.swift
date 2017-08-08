@@ -71,7 +71,7 @@ extension UIColor {
   }
 
   public static var pelotonHeartRateZone5: UIColor {
-    return .colorFromHex(0xF64F5F)
+    return .colorFromHex(0xFF4759)
   }
 
   public static func drawSpotlightGradient(_ context: CGContext, frame: CGRect) {
