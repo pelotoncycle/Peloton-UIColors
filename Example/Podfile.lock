@@ -4,17 +4,17 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - Nimble (5.0.0)
+  - Nimble (7.0.2)
   - Nimble-Snapshots (4.2.0):
     - FBSnapshotTestCase (~> 2.0)
     - Nimble
     - Quick
-  - Peloton-UIColors (0.4.2)
+  - Peloton-UIColors (0.4.4)
   - Quick (0.10.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1)
-  - Nimble (~> 5.0)
+  - Nimble (~> 7.0.2)
   - Nimble-Snapshots (~> 4.2)
   - Peloton-UIColors (from `../`)
   - Quick (~> 0.10)
@@ -25,11 +25,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  Nimble: 56fc9f5020effa2206de22c3dd910f4fb011b92f
+  Nimble: bfe1f814edabba69ff145cb1283e04ed636a67f2
   Nimble-Snapshots: 4826e3ee211d2c7af27645e35d68b9e9917882e7
-  Peloton-UIColors: b0728bdb64800989712544716e264f98cc402510
+  Peloton-UIColors: be48fcb4d0192b54dbce8af73b12375a4b28de41
   Quick: 5d290df1c69d5ee2f0729956dcf0fd9a30447eaa
 
-PODFILE CHECKSUM: ed5c58e7d53fb9b471004f15ec8cdc3060c09f54
+PODFILE CHECKSUM: 567acbf26623c04d443d672bd9a557944c7014e9
 
 COCOAPODS: 1.2.1

@@ -58,6 +58,13 @@ UIColor.pelotonSlateGrey
 ```
 <img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonSlateGrey_looks_right%402x.png" height=100 width=100 />
 
+#### Dark Slate Grey
+
+``` swift
+UIColor.pelotonDarkSlateGrey
+```
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColorPelotonTests/pelotonDarkSlateGrey_looks_right%402x.png" height=100 width=100 />
+
 #### Medium Grey
 ``` swift
 UIColor.pelotonMediumGrey
