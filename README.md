@@ -21,7 +21,7 @@ it, simply add the following line to your Podfile:
 pod "Peloton-UIColors"
 ```
 
-###Usage
+### Usage
 To use Peloton-UIColors, include the following import:
 
 ``` swift
