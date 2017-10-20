@@ -8,7 +8,7 @@ target 'Peloton-UIColors_Example' do
 
     pod 'FBSnapshotTestCase', '~> 2.1'
     pod 'Quick', '~> 0.10'
-    pod 'Nimble', '~> 5.0'
+    pod 'Nimble', '~> 7.0.2'
     pod 'Nimble-Snapshots', '~> 4.2'
   end
 end

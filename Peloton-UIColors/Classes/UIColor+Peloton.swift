@@ -34,6 +34,10 @@ extension UIColor {
     return .colorFromHex(0x697180)
   }
 
+  public static var pelotonDarkSlateGrey: UIColor {
+    return .colorFromHex(0x4C525E)
+  }
+
   public static var pelotonMediumGrey: UIColor {
     return .colorFromHex(0xA8ACB1)
   }
