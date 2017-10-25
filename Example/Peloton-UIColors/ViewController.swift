@@ -14,19 +14,21 @@ final class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
+
     view.addSubview(radialView)
   }
 
   override func viewWillLayoutSubviews() {
     super.viewWillLayoutSubviews()
+
     radialView.frame = view.bounds
   }
 }
 
 final class RadialView: UIView {
   override func draw(_ rect: CGRect) {
-    if let context = UIGraphicsGetCurrentContext() {
-      UIColor.drawSpotlightGradient(context, frame: rect)
-    }
+    guard let context = UIGraphicsGetCurrentContext() else { return }
+
+    UIColor.drawSpotlightGradient(context, frame: rect)
   }
 }

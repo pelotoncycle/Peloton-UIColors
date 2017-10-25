@@ -18,65 +18,33 @@ extension UIColor {
     return UIColor(red: red, green: green, blue: blue, alpha: alpha)
   }
 
-  public static var pelotonSuperRed: UIColor {
-    return .colorFromHex(0xFF3347)
-  }
+  // MARK: - Greys
 
-  public static var pelotonMediumOrange: UIColor {
-    return .colorFromHex(0xFABD5C)
-  }
+  public static var pelotonSlateGrey: UIColor { return .colorFromHex(0x697180) }
+  public static var pelotonDarkSlateGrey: UIColor { return .colorFromHex(0x4C525E) }
+  public static var pelotonMediumGrey: UIColor { return .colorFromHex(0xA8ACB1) }
+  public static var pelotonMediumDarkGrey: UIColor { return .colorFromHex(0x8A8D91) }
+  public static var pelotonLightGrey: UIColor { return .colorFromHex(0xD2D5D9) }
+  public static var pelotonVeryLightGrey: UIColor { return .colorFromHex(0xE4E7EB) }
+  public static var pelotonLightBlueGrey: UIColor { return .colorFromHex(0xEEF0F2) }
 
-  public static var pelotonBlueBlack: UIColor {
-    return .colorFromHex(0x222529)
-  }
+  // MARK: - Heart Rate Zone Colors
 
-  public static var pelotonSlateGrey: UIColor {
-    return .colorFromHex(0x697180)
-  }
+  public static var pelotonHeartRateZone1: UIColor { return .colorFromHex(0x50C4AA) }
+  public static var pelotonHeartRateZone2: UIColor { return .colorFromHex(0xB6C95C) }
+  public static var pelotonHeartRateZone3: UIColor { return .colorFromHex(0xFACB3E) }
+  public static var pelotonHeartRateZone4: UIColor { return .colorFromHex(0xFC800F) }
+  public static var pelotonHeartRateZone5: UIColor { return .colorFromHex(0xFF4759) }
 
-  public static var pelotonDarkSlateGrey: UIColor {
-    return .colorFromHex(0x4C525E)
-  }
+  // MARK: - Other
 
-  public static var pelotonMediumGrey: UIColor {
-    return .colorFromHex(0xA8ACB1)
-  }
+  public static var pelotonBlueWhite: UIColor { return .colorFromHex(0xF5F7F9) }
+  public static var pelotonSuperRed: UIColor { return .colorFromHex(0xFF3347) }
+  public static var pelotonMediumOrange: UIColor { return .colorFromHex(0xFABD5C) }
+  public static var pelotonBlueBlack: UIColor { return .colorFromHex(0x222529) }
+  public static var pelotonYellow: UIColor { return .colorFromHex(0xFFE28C) }
 
-  public static var pelotonMediumDarkGrey: UIColor {
-    return .colorFromHex(0x8A8D91)
-  }
-
-  public static var pelotonLightGrey: UIColor {
-    return .colorFromHex(0xD2D5D9)
-  }
-
-  public static var pelotonLightBlueGrey: UIColor {
-    return .colorFromHex(0xEEF0F2)
-  }
-
-  public static var pelotonBlueWhite: UIColor {
-    return .colorFromHex(0xF5F7F9)
-  }
-
-  public static var pelotonHeartRateZone1: UIColor {
-    return .colorFromHex(0x50C4AA)
-  }
-
-  public static var pelotonHeartRateZone2: UIColor {
-    return .colorFromHex(0xB6C95C)
-  }
-
-  public static var pelotonHeartRateZone3: UIColor {
-    return .colorFromHex(0xFACB3E)
-  }
-
-  public static var pelotonHeartRateZone4: UIColor {
-    return .colorFromHex(0xFC800F)
-  }
-
-  public static var pelotonHeartRateZone5: UIColor {
-    return .colorFromHex(0xFF4759)
-  }
+  // MARK: - Gradient-Related
 
   public static func drawSpotlightGradient(_ context: CGContext, frame: CGRect) {
     let backgroundColor = UIColor.pelotonMediumGrey
