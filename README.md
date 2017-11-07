@@ -109,6 +109,12 @@ UIColor.pelotonVeryLightGrey
 ```
 <img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/greys__pelotonVeryLightGrey_looks_right%402x.png" height=100 width=100 />
 
+#### Background Grey
+``` swift
+UIColor.pelotonBackgroundGrey
+```
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/greys__pelotonBackgroundGrey_looks_right%402x.png" height=100 width=100 />
+
 #### Blue White
 ``` swift
 UIColor.pelotonBlueWhite

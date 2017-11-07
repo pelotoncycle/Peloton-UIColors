@@ -27,6 +27,7 @@ extension UIColor {
   public static var pelotonLightGrey: UIColor { return .colorFromHex(0xD2D5D9) }
   public static var pelotonVeryLightGrey: UIColor { return .colorFromHex(0xE4E7EB) }
   public static var pelotonLightBlueGrey: UIColor { return .colorFromHex(0xEEF0F2) }
+  public static var pelotonBackgroundGrey: UIColor { return .colorFromHex(0xE3E6E8) }
 
   // MARK: - Heart Rate Zone Colors
 
