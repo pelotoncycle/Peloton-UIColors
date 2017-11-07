@@ -5,7 +5,9 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - Nimble (7.0.2)
-  - Nimble-Snapshots (4.2.0):
+  - Nimble-Snapshots (4.4.0):
+    - Nimble-Snapshots/Core (= 4.4.0)
+  - Nimble-Snapshots/Core (4.4.0):
     - FBSnapshotTestCase (~> 2.0)
     - Nimble
     - Quick
@@ -24,9 +26,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Nimble: bfe1f814edabba69ff145cb1283e04ed636a67f2
-  Nimble-Snapshots: 4826e3ee211d2c7af27645e35d68b9e9917882e7
+  Nimble-Snapshots: e743439f26c2fa99d8f7e0d7c01c99bcb40aa6f2
   Peloton-UIColors: 71fda2e90effa165999f55e6a587ad2ce96ef8e0
   Quick: 5d290df1c69d5ee2f0729956dcf0fd9a30447eaa
 
