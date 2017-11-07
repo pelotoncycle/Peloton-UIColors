@@ -48,6 +48,11 @@ final class UIColorPelotonSpec: QuickSpec {
         view.backgroundColor = .pelotonVeryLightGrey
         expect(view) == snapshot()
       }
+
+      it("pelotonBackgroundGrey looks right") {
+        view.backgroundColor = .pelotonBackgroundGrey
+        expect(view) == snapshot()
+      }
     }
 
     describe("others") {
