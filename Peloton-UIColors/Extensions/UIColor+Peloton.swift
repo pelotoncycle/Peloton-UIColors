@@ -43,6 +43,7 @@ extension UIColor {
   public static var pelotonMediumOrange: UIColor { return .colorFromHex(0xFABD5C) }
   public static var pelotonBlueBlack: UIColor { return .colorFromHex(0x222529) }
   public static var pelotonYellow: UIColor { return .colorFromHex(0xFFE28C) }
+  public static var pelotonDarkBlue: UIColor { return .colorFromHex(0x406599) }
 
   // MARK: - Gradient-Related
 
