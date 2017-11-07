@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Peloton-UIColors'
-  s.version          = '0.4.5'
+  s.version          = '0.4.6'
   s.summary          = 'UIColors for Peloton Apps.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Peloton-UIColors/Classes/**/*'
+  s.source_files = 'Peloton-UIColors/Extensions/**/*'
 
   # s.resource_bundles = {
   #   'Peloton-UIColors' => ['Peloton-UIColors/Assets/*.png']
