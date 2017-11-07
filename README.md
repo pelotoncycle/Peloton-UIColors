@@ -40,7 +40,7 @@ UIColor.pelotonSuperRed
 #### Dark Blue
 
 ```swift
-UIColor.pelotonSuperRed
+UIColor.pelotonDarkBlue
 ```
 <img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/others__pelotonDarkBlue_looks_right%402x.png" height=100 width=100 />
 
