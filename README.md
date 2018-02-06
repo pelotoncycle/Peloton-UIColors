@@ -51,6 +51,13 @@ UIColor.pelotonYellow
 ```
 <img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/others__pelotonYellow_looks_right%402x.png" height=100 width=100 />
 
+#### Dark Yellow
+
+```swift
+UIColor.pelotonDarkYellow
+```
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/others__pelotonDarkYellow_looks_right%402x.png" height=100 width=100 />
+
 #### Medium Orange
 
 ```swift
