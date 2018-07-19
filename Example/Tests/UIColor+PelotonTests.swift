@@ -94,6 +94,11 @@ final class UIColorPelotonSpec: QuickSpec {
         view.backgroundColor = .pelotonDarkBlue
         expect(view) == snapshot()
       }
+
+      it("pelotonModalBackdropColor looks right") {
+        view.backgroundColor = .pelotonModalBackdropColor
+        expect(view) == snapshot()
+      }
     }
 
     describe("zone colors") {

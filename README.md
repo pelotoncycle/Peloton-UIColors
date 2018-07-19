@@ -128,6 +128,12 @@ UIColor.pelotonBlueWhite
 ```
 <img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/others__pelotonBlueWhite_looks_right%402x.png" height=100 width=100 />
 
+#### Modal Backdrop Color
+``` swift
+UIColor.pelotonModalBackdropColor
+```
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/others__pelotonModalBackdropColor_looks_right%402x.png" height=100 width=100 />
+
 #### Heart Rate Zone 1
 ``` swift
 UIColor.pelotonHeartRateZone1
@@ -178,9 +184,12 @@ if let context = UIGraphicsGetCurrentContext() {
 ```
 <img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/gradients__lightGreyGradient_looks_right%402x.png" height=667 width=375 />
 
+## Testing
+
+All of the snapshots in the `Example` test suite are recorded using an iPad Air 2 simulator.
+
 ## Authors
 
-- Ryan Fitzgerald, ryan.fitzgerald@onepeloton.com
 - Carolyn Stewart, carolyn.stewart@onepeloton.com
 - Yu Ji, yuji@onepeloton.com
 - Jasdev Singh, jasdev@onepeloton.com

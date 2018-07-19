@@ -1,6 +1,12 @@
 # Change Log
+
 All notable changes to this project will be documented in this file.
 `Peloton-UIColors` adheres to [Semantic Versioning](http://semver.org/).
+
+## 0.4.9
+
+- Adds `UIColor.pelotonModalBackdropColor`
+
 ## 0.4.8
 
 - Adds `UIColor.pelotonDarkYellow`
@@ -54,6 +60,7 @@ All notable changes to this project will be documented in this file.
 - Radial Gradients
 
 #### Added
+
 - Two radial gradients. Spotlight and Light Grey gradients, useful for
   setting as UIView background layers
 
@@ -62,4 +69,5 @@ All notable changes to this project will be documented in this file.
 - Initial release
 
 #### Added
+
 - Custom colors as UIColor extensions
