@@ -9,48 +9,48 @@ final class UIColorPelotonSpec: QuickSpec {
   override func spec() {
     var view: UIView!
 
-    describe("greys") {
+    describe("grays") {
       beforeEach {
         view = UIView(frame: CGRect(x: 0, y: 0, width: 200, height: 200))
       }
 
-      it("pelotonSlateGrey looks right") {
-        view.backgroundColor = .pelotonSlateGrey
+      it("pelotonSlateGray looks right") {
+        view.backgroundColor = .pelotonSlateGray
         expect(view) == snapshot()
       }
 
-      it("pelotonDarkSlateGrey looks right") {
-        view.backgroundColor = .pelotonDarkSlateGrey
+      it("pelotonDarkSlateGray looks right") {
+        view.backgroundColor = .pelotonDarkSlateGray
         expect(view) == snapshot()
       }
 
-      it("pelotonMediumGrey looks right") {
-        view.backgroundColor = .pelotonMediumGrey
+      it("pelotonMediumGray looks right") {
+        view.backgroundColor = .pelotonMediumGray
         expect(view) == snapshot()
       }
 
-      it("pelotonMediumDarkGrey looks right") {
-        view.backgroundColor = .pelotonMediumDarkGrey
+      it("pelotonMediumDarkGray looks right") {
+        view.backgroundColor = .pelotonMediumDarkGray
         expect(view) == snapshot()
       }
 
-      it("pelotonLightGrey looks right") {
-        view.backgroundColor = .pelotonLightGrey
+      it("pelotonLightGray looks right") {
+        view.backgroundColor = .pelotonLightGray
         expect(view) == snapshot()
       }
 
-      it("pelotonLightBlueGrey looks right") {
-        view.backgroundColor = .pelotonLightBlueGrey
+      it("pelotonLightBlueGray looks right") {
+        view.backgroundColor = .pelotonLightBlueGray
         expect(view) == snapshot()
       }
 
-      it("pelotonVeryLightGrey looks right") {
-        view.backgroundColor = .pelotonVeryLightGrey
+      it("pelotonVeryLightGray looks right") {
+        view.backgroundColor = .pelotonVeryLightGray
         expect(view) == snapshot()
       }
 
-      it("pelotonBackgroundGrey looks right") {
-        view.backgroundColor = .pelotonBackgroundGrey
+      it("pelotonBackgroundGray looks right") {
+        view.backgroundColor = .pelotonBackgroundGray
         expect(view) == snapshot()
       }
     }
@@ -143,12 +143,12 @@ final class UIColorPelotonSpec: QuickSpec {
         expect(radialView) == snapshot()
       }
 
-      it("lightGreyGradient looks right") {
+      it("lightGrayGradient looks right") {
         let radialView = LightRadialView(frame: CGRect(x: 0, y: 0, width: 375, height: 667))
         expect(radialView) == snapshot()
       }
 
-      it("lightGreyGradient looks right in landscape") {
+      it("lightGrayGradient looks right in landscape") {
         let radialView = LightRadialView(frame: CGRect(x: 0, y: 0, width: 667, height: 375))
         expect(radialView) == snapshot()
       }
@@ -168,6 +168,6 @@ private final class LightRadialView: UIView {
   override func draw(_ rect: CGRect) {
     guard let context = UIGraphicsGetCurrentContext() else { return }
 
-    UIColor.drawLightGreyGradient(context, frame: rect)
+    UIColor.drawLightGrayGradient(context, frame: rect)
   }
 }
