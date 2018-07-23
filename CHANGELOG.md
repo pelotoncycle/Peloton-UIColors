@@ -13,7 +13,7 @@ All notable changes to this project will be documented in this file.
 
 ## 0.4.7
 
-- Adds `UIColor.pelotonBackgroundGrey`
+- Adds `UIColor.pelotonBackgroundGray`
 
 ## 0.4.6
 
@@ -21,11 +21,11 @@ All notable changes to this project will be documented in this file.
 
 ## 0.4.5
 
-- Adds `UIColor.pelotonYellow` and `UIColor.pelotonVeryLightGrey`
+- Adds `UIColor.pelotonYellow` and `UIColor.pelotonVeryLightGray`
 
 ## 0.4.4
 
-- Adds `UIColor.pelotonDarkSlateGrey`
+- Adds `UIColor.pelotonDarkSlateGray`
 
 ## 0.4.3
 
@@ -37,7 +37,7 @@ All notable changes to this project will be documented in this file.
 
 ## 0.4.1
 
-- Adds `UIColor.pelotonMediumDarkGrey`
+- Adds `UIColor.pelotonMediumDarkGray`
 
 ## 0.4
 
@@ -49,7 +49,7 @@ All notable changes to this project will be documented in this file.
 
 ## 0.3.1
 
-- Adds `UIColor.pelotonLightBlueGrey()`
+- Adds `UIColor.pelotonLightBlueGray()`
 
 ## 0.3
 
@@ -61,7 +61,7 @@ All notable changes to this project will be documented in this file.
 
 #### Added
 
-- Two radial gradients. Spotlight and Light Grey gradients, useful for
+- Two radial gradients. Spotlight and Light Gray gradients, useful for
   setting as UIView background layers
 
 ## 0.1

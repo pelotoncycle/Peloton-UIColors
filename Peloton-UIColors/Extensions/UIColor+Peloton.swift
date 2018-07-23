@@ -18,16 +18,16 @@ extension UIColor {
     return UIColor(red: red, green: green, blue: blue, alpha: alpha)
   }
 
-  // MARK: - Greys
+  // MARK: - Grays
 
-  public static var pelotonSlateGrey: UIColor { return .colorFromHex(0x697180) }
-  public static var pelotonDarkSlateGrey: UIColor { return .colorFromHex(0x4C525E) }
-  public static var pelotonMediumGrey: UIColor { return .colorFromHex(0xA8ACB1) }
-  public static var pelotonMediumDarkGrey: UIColor { return .colorFromHex(0x8A8D91) }
-  public static var pelotonLightGrey: UIColor { return .colorFromHex(0xD2D5D9) }
-  public static var pelotonVeryLightGrey: UIColor { return .colorFromHex(0xE4E7EB) }
-  public static var pelotonLightBlueGrey: UIColor { return .colorFromHex(0xEEF0F2) }
-  public static var pelotonBackgroundGrey: UIColor { return .colorFromHex(0xE3E6E8) }
+  public static var pelotonSlateGray: UIColor { return .colorFromHex(0x697180) }
+  public static var pelotonDarkSlateGray: UIColor { return .colorFromHex(0x4C525E) }
+  public static var pelotonMediumGray: UIColor { return .colorFromHex(0xA8ACB1) }
+  public static var pelotonMediumDarkGray: UIColor { return .colorFromHex(0x8A8D91) }
+  public static var pelotonLightGray: UIColor { return .colorFromHex(0xD2D5D9) }
+  public static var pelotonVeryLightGray: UIColor { return .colorFromHex(0xE4E7EB) }
+  public static var pelotonLightBlueGray: UIColor { return .colorFromHex(0xEEF0F2) }
+  public static var pelotonBackgroundGray: UIColor { return .colorFromHex(0xE3E6E8) }
 
   // MARK: - Heart Rate Zone Colors
 
@@ -51,15 +51,15 @@ extension UIColor {
   // MARK: - Gradient-Related
 
   public static func drawSpotlightGradient(_ context: CGContext, frame: CGRect) {
-    let backgroundColor = UIColor.pelotonMediumGrey
+    let backgroundColor = UIColor.pelotonMediumGray
     let gradColor = UIColor.pelotonBlueWhite
     let colors = [gradColor.withAlphaComponent(1.0), gradColor.withAlphaComponent(0.7)]
 
     drawRadialGradient(context, frame: frame, colors: colors, backgroundColor: backgroundColor)
   }
 
-  public static func drawLightGreyGradient(_ context: CGContext, frame: CGRect) {
-    let backgroundColor = UIColor.pelotonLightGrey
+  public static func drawLightGrayGradient(_ context: CGContext, frame: CGRect) {
+    let backgroundColor = UIColor.pelotonLightGray
     let gradColor = UIColor.white
     let colors = [gradColor.withAlphaComponent(1.0), gradColor.withAlphaComponent(0.65)]
 

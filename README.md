@@ -72,55 +72,55 @@ UIColor.pelotonBlueBlack
 ```
 <img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/others__pelotonBlueBlack_looks_right%402x.png" height=100 width=100 />
 
-#### Slate Grey
+#### Slate Gray
 
 ``` swift
-UIColor.pelotonSlateGrey
+UIColor.pelotonSlateGray
 ```
-<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/greys__pelotonSlateGrey_looks_right%402x.png" height=100 width=100 />
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/grays__pelotonSlateGray_looks_right%402x.png" height=100 width=100 />
 
-#### Dark Slate Grey
+#### Dark Slate Gray
 
 ``` swift
-UIColor.pelotonDarkSlateGrey
+UIColor.pelotonDarkSlateGray
 ```
-<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/greys__pelotonDarkSlateGrey_looks_right%402x.png" height=100 width=100 />
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/grays__pelotonDarkSlateGray_looks_right%402x.png" height=100 width=100 />
 
-#### Medium Grey
+#### Medium Gray
 ``` swift
-UIColor.pelotonMediumGrey
+UIColor.pelotonMediumGray
 ```
-<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/greys__pelotonMediumGrey_looks_right%402x.png" height=100 width=100 />
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/grays__pelotonMediumGray_looks_right%402x.png" height=100 width=100 />
 
-#### Medium Dark Grey
+#### Medium Dark Gray
 ``` swift
-UIColor.pelotonMediumDarkGrey
+UIColor.pelotonMediumDarkGray
 ```
-<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/greys__pelotonMediumDarkGrey_looks_right%402x.png" height=100 width=100 />
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/grays__pelotonMediumDarkGray_looks_right%402x.png" height=100 width=100 />
 
-#### Light Grey
+#### Light Gray
 ``` swift
-UIColor.pelotonLightGrey
+UIColor.pelotonLightGray
 ```
-<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/greys__pelotonLightGrey_looks_right%402x.png" height=100 width=100 />
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/grays__pelotonLightGray_looks_right%402x.png" height=100 width=100 />
 
-#### Light Blue Grey
+#### Light Blue Gray
 ``` swift
-UIColor.pelotonLightBlueGrey
+UIColor.pelotonLightBlueGray
 ```
-<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/greys__pelotonLightBlueGrey_looks_right%402x.png" height=100 width=100 />
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/grays__pelotonLightBlueGray_looks_right%402x.png" height=100 width=100 />
 
-#### Very Light Grey
+#### Very Light Gray
 ``` swift
-UIColor.pelotonVeryLightGrey
+UIColor.pelotonVeryLightGray
 ```
-<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/greys__pelotonVeryLightGrey_looks_right%402x.png" height=100 width=100 />
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/grays__pelotonVeryLightGray_looks_right%402x.png" height=100 width=100 />
 
-#### Background Grey
+#### Background Gray
 ``` swift
-UIColor.pelotonBackgroundGrey
+UIColor.pelotonBackgroundGray
 ```
-<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/greys__pelotonBackgroundGrey_looks_right%402x.png" height=100 width=100 />
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/grays__pelotonBackgroundGray_looks_right%402x.png" height=100 width=100 />
 
 #### Blue White
 ``` swift
@@ -175,14 +175,14 @@ if let context = UIGraphicsGetCurrentContext() {
 ```
 <img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/gradients__spotlightGradient_looks_right%402x.png" height=667 width=375 />
 
-#### Light Grey Gradient
+#### Light Gray Gradient
 
 ```swift
 if let context = UIGraphicsGetCurrentContext() {
-  UIColor.drawLightGreyGradient(context, frame: rect)
+  UIColor.drawLightGrayGradient(context, frame: rect)
 }
 ```
-<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/gradients__lightGreyGradient_looks_right%402x.png" height=667 width=375 />
+<img src="https://raw.githubusercontent.com/pelotoncycle/Peloton-UIColors/master/Example/Tests/ReferenceImages/UIColor+PelotonTests/gradients__lightGrayGradient_looks_right%402x.png" height=667 width=375 />
 
 ## Testing
 
