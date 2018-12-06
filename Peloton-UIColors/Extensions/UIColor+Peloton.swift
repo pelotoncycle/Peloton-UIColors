@@ -37,6 +37,12 @@ extension UIColor {
   public static var pelotonHeartRateZone4: UIColor { return .colorFromHex(0xFC800F) }
   public static var pelotonHeartRateZone5: UIColor { return .colorFromHex(0xFF4759) }
 
+  // MARK: - Class Difficulty
+
+  public static var pelotonDifficultyBeginnerGreen: UIColor { return .colorFromHex(0x50C4AA) }
+  public static var pelotonDifficultyIntermediateYellow: UIColor { return .colorFromHex(0xFACB3E) }
+  public static var pelotonDifficultyAdvancedRed: UIColor { return .colorFromHex(0xFC800F) }
+
   // MARK: - Other
 
   public static var pelotonBlueWhite: UIColor { return .colorFromHex(0xF5F7F9) }
