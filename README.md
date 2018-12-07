@@ -193,6 +193,7 @@ All of the snapshots in the `Example` test suite are recorded using an iPad Air 
 - Carolyn Stewart, carolyn.stewart@onepeloton.com
 - Yu Ji, yuji@onepeloton.com
 - Jasdev Singh, jasdev@onepeloton.com
+- Jason Brennan, jason.brennan@onepeloton.com
 
 ## License
 

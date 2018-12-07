@@ -11,7 +11,7 @@ PODS:
     - FBSnapshotTestCase (~> 2.0)
     - Nimble
     - Quick
-  - Peloton-UIColors (0.4.9)
+  - Peloton-UIColors (0.5.1)
   - Quick (0.10.0)
 
 DEPENDENCIES:
@@ -29,7 +29,7 @@ SPEC CHECKSUMS:
   FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
   Nimble: bfe1f814edabba69ff145cb1283e04ed636a67f2
   Nimble-Snapshots: e743439f26c2fa99d8f7e0d7c01c99bcb40aa6f2
-  Peloton-UIColors: a833e270317684b3b44b25b4831436ab2233052c
+  Peloton-UIColors: ccb1a2734f2ee866916c4d1530948923fac9e875
   Quick: 5d290df1c69d5ee2f0729956dcf0fd9a30447eaa
 
 PODFILE CHECKSUM: 567acbf26623c04d443d672bd9a557944c7014e9

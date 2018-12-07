@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 `Peloton-UIColors` adheres to [Semantic Versioning](http://semver.org/).
 
+## 0.5.1
+
+- Adds Class Difficulty green, yellow, and red.
+
+## 0.5.0
+
+- Changed "grey" to "gray" everywhere.
+
 ## 0.4.9
 
 - Adds `UIColor.pelotonModalBackdropColor`
