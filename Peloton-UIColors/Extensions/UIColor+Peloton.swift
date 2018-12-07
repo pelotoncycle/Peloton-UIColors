@@ -18,9 +18,9 @@ extension UIColor {
     return UIColor(red: red, green: green, blue: blue, alpha: alpha)
   }
 
-  private static var pelotonGreen: UIColor { return .colorFromHex(0x50C4AA) }
-  private static var pelotonYellow: UIColor { return .colorFromHex(0xFACB3E) }
-  private static var pelotonRed: UIColor { return .colorFromHex(0xFC800F) }
+  private static var pelotonTrafficGreen: UIColor { return .colorFromHex(0x50C4AA) }
+  private static var pelotonTrafficYellow: UIColor { return .colorFromHex(0xFACB3E) }
+  private static var pelotonTrafficRed: UIColor { return .colorFromHex(0xFC800F) }
 
   // MARK: - Grays
 
@@ -35,17 +35,17 @@ extension UIColor {
 
   // MARK: - Heart Rate Zone Colors
 
-  public static var pelotonHeartRateZone1: UIColor { return .pelotonGreen }
+  public static var pelotonHeartRateZone1: UIColor { return .pelotonTrafficGreen }
   public static var pelotonHeartRateZone2: UIColor { return .colorFromHex(0xB6C95C) }
-  public static var pelotonHeartRateZone3: UIColor { return .pelotonYellow }
-  public static var pelotonHeartRateZone4: UIColor { return .pelotonRed }
+  public static var pelotonHeartRateZone3: UIColor { return .pelotonTrafficYellow }
+  public static var pelotonHeartRateZone4: UIColor { return .pelotonTrafficRed }
   public static var pelotonHeartRateZone5: UIColor { return .colorFromHex(0xFF4759) }
 
   // MARK: - Class Difficulty
 
-  public static var pelotonDifficultyBeginnerGreen: UIColor { return .pelotonGreen }
-  public static var pelotonDifficultyIntermediateYellow: UIColor { return .pelotonYellow}
-  public static var pelotonDifficultyAdvancedRed: UIColor { return .pelotonRed }
+  public static var pelotonDifficultyBeginnerGreen: UIColor { return .pelotonTrafficGreen }
+  public static var pelotonDifficultyIntermediateYellow: UIColor { return .pelotonTrafficYellow}
+  public static var pelotonDifficultyAdvancedRed: UIColor { return .pelotonTrafficRed }
 
   // MARK: - Other
 
